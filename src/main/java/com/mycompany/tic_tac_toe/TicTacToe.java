@@ -1,6 +1,8 @@
 package com.mycompany.tic_tac_toe;
 
 import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
@@ -29,10 +31,13 @@ public class TicTacToe extends Application {
     private BorderPane contentCreation(){
         BorderPane root = new BorderPane();
         
+        root.setPadding(new Insets(20,20,20,20));
+        
         //title
         Label title_Label  = new Label("TIC TAC TOE");
         title_Label.setStyle("-fx-font-size : 24pt ; -fx-font-weight : bold ;"); //style label
         root.setTop(title_Label);
+        BorderPane.setAlignment(title_Label, Pos.CENTER);
         
         //Game board
         GridPane gridPane = new GridPane();
@@ -47,10 +52,13 @@ public class TicTacToe extends Application {
                 gridPane.add(button, col, row);
             }
         }
+        
+        gridPane.setAlignment(Pos.CENTER); //align to center
         root.setCenter(gridPane);   //setting the position of the gridpane to center
         
         //score
         HBox score_Board = new HBox(50);
+        score_Board.setAlignment(Pos.CENTER); //alignment to center
         //player x labeling
         player_X_Score_Label = new Label("Player X : 0");
         player_X_Score_Label.setStyle("-fx-font-size : 16pt ; -fx-font-weight : bold ;");
