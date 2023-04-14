@@ -20,13 +20,13 @@ This project is Contributed by me .
 
 ## Screenshots
 
-![Game-Board](https://drive.google.com/file/d/1n37lfJQuz17W8cwFBRyvVFdcCV1-kNPE/view?usp=sharing)
+![Game-Board](https://github.com/Aman-SB/Tic-Tac-Toe/blob/master/src/main/screenshots/Screenshot%202023-04-14%20134127.png?raw=true)
 
-![Playing](https://drive.google.com/file/d/1H3us61-Cj2hpTPzi-J-3lvFQZB_YuA_J/view?usp=sharing)
+![Playing](https://github.com/Aman-SB/Tic-Tac-Toe/blob/master/src/main/screenshots/Screenshot%202023-04-14%20134142.png?raw=true)
 
-![On winning](https://drive.google.com/file/d/1pKXM9jC0kHmdhkcasi593ayKQh9OYCZY/view?usp=sharing)
+![On winning dialouge box](https://github.com/Aman-SB/Tic-Tac-Toe/blob/master/src/main/screenshots/Screenshot%202023-04-14%20134156.png?raw=true)
 
-![at restarting](https://drive.google.com/file/d/1P98lxe_spL9spAvl1P1ICoezSAHqaF5k/view?usp=sharing)
+![at restarting](https://github.com/Aman-SB/Tic-Tac-Toe/blob/master/src/main/screenshots/Screenshot%202023-04-14%20135629.png?raw=true)
 
 
 
